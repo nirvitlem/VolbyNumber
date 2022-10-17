@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
             arrayOf(
                 Manifest.permission.READ_PHONE_STATE,
                 Manifest.permission.READ_CALL_LOG,
-                Manifest.permission.READ_PHONE_NUMBERS
+                Manifest.permission.READ_PHONE_NUMBERS,
+                Manifest.permission.ACCESS_NOTIFICATION_POLICY
             ),
             PERMISSION_REQUEST_CODE
         )
